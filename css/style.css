@@ -4,9 +4,13 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+/* ESTILOS PARA EL INICIO */
+
 .header img{
-    height: 150px; 
-    width: 150px;
+    height: 110px; 
+    width: 110px;
+    margin: 10px;
 }
 
 .header{
@@ -30,5 +34,47 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
-    }
+}
+
+.main{
+    min-height: 70vh;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+
+.Peli{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
+}
+
+.Peli p{
+    text-align: center;
+}
+
+
+  
+.footer{
+    background-color: brown;
+   min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    color: rgb(9, 10, 10);
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width:619px){
+    .header{
+        justify-content: center;
+    }
+}
